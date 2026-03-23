@@ -9,7 +9,7 @@ function convert() {
 
   if (pi >= 1) {
 
-    const msape = pi * 128; // current market price
+    const msape = pi * 129; // current market price
 
     const mpesa = document.querySelector('.right-input');
     mpesa.textContent = msape.toLocaleString();
